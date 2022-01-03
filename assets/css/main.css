@@ -1,0 +1,347 @@
+/*
+  Fonts
+*/
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  src: url('~assets/fonts/Jost/Jost-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 300;
+  src: url('~assets/fonts/Jost/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  src: url('~assets/fonts/Jost/Jost-Regular.ttf') format('truetype');
+}
+assets/fonts/Lato/Lato-Regular.ttf
+/*
+  General Config
+*/
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+html, input {
+  font-family:
+    Jost,
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* 
+  Modificaciones generales element
+*/
+.el-icon-star-on::before {
+  font-size: 14px;
+}
+.el-input__inner {
+  background-color: transparent;
+} 
+.el-input__inner, 
+.el-input__inner:focus {
+  border: 1px solid #4a25aa;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width: unset;
+}
+.el-input__inner::placeholder {
+  letter-spacing: 0.1px;
+  color: #282828;
+}
+.el-icon-arrow-up:before {
+  content: "\25B2";
+  color: purple;
+}
+.el-year-table .available.disabled {
+  display: none;
+}
+/* .el-date-table__row .disabled {
+  display: none;
+} */
+.main-body {
+  padding-top: 79px;
+  height: fit-content;
+  min-height: calc(100% - 240px);
+  display: flex;
+  flex-flow: column;
+}
+
+html, body, #__nuxt, #__layout, .h-100 {
+  height: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .main-body {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .d-sm-none {
+    display: none;
+  }
+}
+/* @media screen and (max-width: 1024px) {
+  .d-lg-none {
+    display: block;
+  }
+  .d-lg-only {
+    display: none;
+  }
+}
+.d-lg-none {
+  display: none;
+}
+.d-lg-only {
+  display: block;
+} */
+html, body, #__nuxt, #__layout, .h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.search-error-p > .el-input__inner{
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.el-tabs__active-bar {
+  height: 4px;
+}
+
+@media screen and (max-width: 420px) {
+  .el-tabs__item {
+    padding: 0px 10px;
+    font-size: 12px;
+  }
+}
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .5s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+/* 
+  Botón primario y secundario
+*/
+
+.primary-button{
+  background: var(--unnamed-color-7129ba) 0% 0% no-repeat padding-box;
+  background: #7129BA 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+  width: 240px;
+  height: 40px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+.primary-button:hover{
+  transform: scale(1.05);
+  transition: .5s all;
+}
+
+.secondary-button{
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  opacity: 1;
+  width: 240px;
+  height: 40px;
+  color: #7129BA;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+.secondary-button:hover{
+  transform: scale(1.05);
+  transition: .5s all;
+}
+
+.space-top{
+  margin-top: 20px;
+}
+.input-form{
+  display: flex;
+  flex-flow: column;
+}
+
+/* -----------------------------------landing---------------------------------------- */
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 400;
+  src: url('~assets/fonts/Jost/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  src: url('~assets/fonts/Jost/Jost-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 600;
+  src: url('~assets/fonts/Jost/Jost-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 700;
+  src: url('~assets/fonts/Jost/Jost-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 800;
+  src: url('~assets/fonts/Jost/Jost-ExtraBold.ttf') format('truetype');
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, button:focus:not(:focus-visible){
+  background: #F20C49;
+  border-radius: 30px;
+  border: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.slide-up {
+  transform: translateY(0);
+}
+
+.slide-up.animate-active {
+  transform: translateY(-100px);
+}
+
+
+.animate {
+  transition-delay: .1s;
+  transition-duration: 1s;
+  transition-timing-function: all;
+}
+
+.slide-up {
+  transform: translateY(0);
+}
+
+.slide-up.animate-active {
+  transform: translateY(-100px);
+}
+
+.fade-in-right{
+  transform: translate3d(20%, 0, 0);
+  opacity: 0;
+}
+
+.fade-in-right.animate-active {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.fade-in-left{
+  transform: translate3d(-20%, 0, 0);
+  opacity: 0;
+}
+
+.fade-in-left.animate-active {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.fade-in-up{
+  transform: translate3d(0, 40%, 0);
+  opacity: 0;
+}
+
+.fade-in-up.animate-active {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.fade-in-up-special{
+  transform: translate3d(0, 200px, 0);
+  opacity: 0;
+}
+
+.fade-in-up-special.animate-active {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.fade-in-scroll {
+  opacity: 0;
+}
+.fade-in-scroll.animate-active {
+  display: block;
+  opacity: 1;
+}
+.btn{
+  padding-top: 10px;
+}
+.btn-primary:focus, .btn-primary.focus{
+  border-color: transparent;
+  box-shadow: none;
+}

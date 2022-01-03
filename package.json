@@ -1,0 +1,32 @@
+{
+  "name": "tramifacil-abogados",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/universal-storage": "^0.5.9",
+    "core-js": "^3.9.1",
+    "element-ui": "^2.15.1",
+    "nuxt": "^2.15.3",
+    "nuxtjs-mdi-font": "^1.0.2",
+    "vee-validate": "3.0.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "vue-animate-onscroll": "^1.0.8",
+    "vue-animate-scroll": "^0.1.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/router-extras": "^1.1.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "fibers": "^5.0.0",
+    "node-sass": "^7.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.0.1"
+  }
+}
