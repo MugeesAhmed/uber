@@ -1,17 +1,17 @@
 <template>
-  <div>
-    <Navbar />
-    <Billboard />
-    <Video />
-    <Custom />
-    <GeneralSeguros />
-    <Faq />
-    <Footer />
-  </div>
+    <div>
+      <Navbar />
+      <Billboard />
+      <Video />
+      <Custom />
+      <GeneralSeguros />
+      <Faq />
+      <Footer />
+    </div>
 </template>
 <router>
 {
-  alias: '/index2'
+  alias: '/front_alias'
 }
 </router>
 <script>
@@ -24,7 +24,7 @@ import GeneralSeguros from '../components/GeneralSeguros'
 import Billboard from '../components/Billboard'
 import Footer from '../components/Footer'
 export default {
-  layout: 'front_website',
+  layout: 'front_layout',
   components: { NavBar, Video, HowItWorks, Custom, Faq, GeneralSeguros, Billboard, Footer }
 }
 </script>
