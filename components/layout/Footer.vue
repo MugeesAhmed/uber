@@ -1,126 +1,141 @@
 <template>
-    <footer class="footer">
-      <div class="footer-section">
-        <div class="footer-section__row">
-            <img src="~/assets/img/Gari-Logo-Blanco.svg" alt="" width="129">
-            <ul class="hidden-sm-and-up">
-              <li class="title-footer">
-                Legales
-              </li>
-              <li class="text-footer">Pólitica de privacidad</li>
-              <li class="text-footer">Términos y condiciones</li>
-            </ul>
-            <ul class="hidden-sm-and-up">
-              <li class="title-footer">
-                  Centro de ayuda
-              </li>
-              <li class="text-footer">Contáctanos</li>
-              <li class="text-footer">Preguntas frecuentes</li>
-            </ul>
+    <footer class="footer-section">
+        <div class="bg-footer-custom footer-top pt-150 pb-5 background-img-2">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <div class="footer-nav-wrap text-white">
+                            <img 
+                                src="https://drive.google.com/uc?export=view&id=1yKAcF4MMqaqpSuVOt0emTXvPjzXUj7O3"
+                                width="120"
+                                alt="asas"
+                                class="img-fluid"
+                            />
+                            <p>
+                                Gari es una empresa de tecnología y analytics enfocada en seguros. Diseñamos y distribuimos productos de auto.
+                            </p>
+
+                            <div class="social-list-wrap">
+                                <ul
+                                    class="social-list list-inline list-unstyled"
+                                >
+                                    <li class="list-inline-item">
+                                        <a
+                                            href="#"
+                                            target="_blank"
+                                            title="Facebook"
+                                            ><span class="ti-facebook"></span
+                                        ></a>
+                                    </li>
+                                    &nbsp;
+                                    <li class="list-inline-item">
+                                        <a
+                                            href="#"
+                                            target="_blank"
+                                            title="Twitter"
+                                            ><span class="ti-twitter"></span
+                                        ></a>
+                                    </li>
+                                    &nbsp;
+                                    <li class="list-inline-item">
+                                        <a
+                                            href="#"
+                                            target="_blank"
+                                            title="Instagram"
+                                            ><span class="ti-instagram"></span
+                                        ></a>
+                                    </li>
+                                    &nbsp;
+                                    <li class="list-inline-item">
+                                        <a
+                                            href="#"
+                                            target="_blank"
+                                            title="printerst"
+                                            ><span class="ti-pinterest"></span
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ml-auto mb-4 mb-lg-0">
+                        <div class="footer-nav-wrap text-white">
+                            <h5 class="mb-3 text-white">Others Links</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#">Sobre nosotros</a></li>
+                                <li class="mb-2"><a href="#">Contacto</a></li>
+                                <li class="mb-2"><a href="#">Precios</a></li>
+                                <li class="mb-2">
+                                    <a href="#">Política de privacidad</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#">Términos y condiciones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ml-auto mb-4 mb-lg-0">
+                        <div class="footer-nav-wrap text-white">
+                            <h5 class="mb-3 text-white">Forma</h5>
+                            <ul class="list-unstyled support-list">
+                                <li class="mb-2 d-flex align-items-center">
+                                    <span class="ti-location-pin mr-2"></span>
+                                    Bosque de Ciruelos 186, Bosque de las Lomas, Miguel Hidalgo, CDMX,  CP 11700
+
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <span class="ti-mobile mr-2"></span>
+                                    <a href="tel:XXX-XXX-XXXX">
+                                        XXX-XXX-XXXX</a
+                                    >
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <span class="ti-email mr-2"></span
+                                    ><a href="mailto:www.gari.mx
+
+">
+                                        www.gari.mx
+
+</a
+                                    >
+                                </li>
+                                <!-- <li class="mb-2 d-flex align-items-center">
+                                    <span class="ti-world mr-2"></span
+                                    ><a href="#"> www.yourdomain.com</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-        <div class="footer-section__row d-sm-none">
-            <ul>
-                <li class="title-footer">
-                  Legales
-                </li>
-                <li class="text-footer">Pólitica de privacidad</li>
-                <li class="text-footer">Términos y condiciones</li>
-            </ul>
+        <div class="footer-bottom gray-light-bg pt-4 pb-4">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-md-6 col-lg-5">
+                        <p class="copyright-text pb-0 mb-0">
+                            Derechos de autor © 2022 Todos los derechos reservados por
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="footer-section__row d-sm-none">
-            <ul>
-              <li class="title-footer">
-                  Centro de ayuda
-              </li>
-              <li class="text-footer">Contáctanos</li>
-              <li class="text-footer">Preguntas frecuentes</li>
-            </ul>
-        </div>
-        <div class="footer-section__row d-sm-none">
-            <ul>
-              <li class="title-footer">
-                  Accesos
-              </li>
-              <li class="text-footer">Iniciar sesión</li>
-              <li class="text-footer">Registrarse</li>
-            </ul>
-        </div>
-        <div class="footer-section__row">
-            <ul>
-              <li class="title-footer d-sm-none">
-                Redes sociales
-              </li>
-              <li class="flex-icons">
-                <img class="rrss" src="~/assets/img/linkedin.svg" alt="">
-                <img class="rrss" src="~/assets/img/facebook.svg" alt="">
-                <img class="rrss" src="~/assets/img/instagram.svg" alt="">
-              </li>
-            </ul>
-        </div>
-      </div>
+        
     </footer>
 </template>
-<style lang="scss" scoped>
-.footer{
-    background-color:#4A25AA ;
-    bottom: 0px;
-    min-height: 210px;
-    color: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    padding: 57px 10px 0px;
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script>
 
-    @media screen and (max-width: 768px) {
-      padding: 25px 30px 0px;
-    }
+export default {
+    name: "SiteFooter",
+};
+</script>
+
+<style scoped lang="scss">
+.bg-footer-custom {
+    background: url("../../assets/img/footer-bg.png") no-repeat center top /
+        cover !important;
 }
-.footer-section {
-    width: 100%;
-    max-width: 1140px;
-    // display: flex;
-    // justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(160px, 210px)) minmax(120px, 210px) minmax(120px, 1fr);
-
-    @media screen and (max-width: 768px) {
-      grid-template-columns: repeat(2, minmax(120px, 1fr));
-    }
-    &__row {
-      // margin-right: 34px;
-      width: 210px;
-      &:last-child {
-      display: flex;
-      justify-content: flex-end;
-      width: 100%;
-      }
-    }
-}
-ul {
-  list-style-type: none;
-  padding-left: unset;
-
-  li {
-    &:last-child {
-      margin-bottom: 10px;
-    }
-    &.title-footer {
-      margin-bottom: 20px;
-      font-weight: 600;
-    }
-    &.flex-icons {
-      display: flex;
-      justify-content: space-between;
-      min-width: 100px;
-      
-      @media screen and (max-width: 768px) {
-        img {
-          height: 26px;
-        }
-      }
-    }
-  }
-}
-
 </style>

@@ -1,8 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  // server: {
-  //   port: 8000 // default: 3000
-  // },
+  server: {
+    port: 8001 // default: 3000
+  },
   head: {
     title: 'Gari cotizador',
     htmlAttrs: {
@@ -28,7 +28,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/element-ui',
-    '~/plugins/vue-scroll.js'
+    '@/plugins/vue-scroll.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,6 +41,7 @@ export default {
     // Doc: https://github.com/nuxt-community/router-extras-module
     '@nuxtjs/router-extras',
   ],
+  
   styleResources: {
     scss: [
       './assets/css/main.scss'

@@ -26,6 +26,7 @@
     </div>
 </template>
 <style scoped>
+    
     .bg-info{
         background-color: rgba(255, 255, 255, 0.95) !important;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
@@ -36,4 +37,6 @@
     .navbar-collapse {
         padding-right: 90px;
     }
+    
 </style>
+

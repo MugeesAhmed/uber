@@ -1,12 +1,16 @@
 <template>
     <div>
-      <Navbar />
-      <Billboard />
-      <Video />
-      <Custom />
-      <GeneralSeguros />
-      <Faq />
-      <Footer />
+      <!-- <nav-bar /> -->
+      <div class="main">
+          <banner />
+          <promo />
+          <about />
+          <pricing  />
+          <clients />
+          <subscribe />
+          <contact :is-gray="true" />
+          <!-- <site-footer /> -->
+      </div>
     </div>
 </template>
 <router>
@@ -15,18 +19,37 @@
 }
 </router>
 <script>
-import NavBar from '../components/Navbar'
-import HowItWorks from '../components/HowItWorks'
-import Video from '../components/Video'
-import Custom from '../components/Custom'
-import Faq from '../components/Faq'
-import GeneralSeguros from '../components/GeneralSeguros'
-import Billboard from '../components/Billboard'
-import Footer from '../components/Footer'
+// import NavBar from "./commons/NavBar";
+import Banner from "./index-one/Banner";
+import Promo from "./index-one/Promo";
+import About from "./index-one/About";
+import Pricing from "./index-one/Pricing";
+import Clients from "./commons/Clients";
+import Subscribe from "./commons/Subscribe";
+import Contact from "./commons/Contact";
+// import SiteFooter from "./commons/SiteFooter";
+
 export default {
-  layout: 'front_layout',
-  components: { NavBar, Video, HowItWorks, Custom, Faq, GeneralSeguros, Billboard, Footer }
-}
+    name: "IndexOne2",
+    components: {
+        // NavBar,
+        Banner,
+        Promo,
+        About,
+        Pricing,
+        Contact,
+        Clients,
+        Subscribe,
+        // SiteFooter,
+    },
+    mounted: function() {
+        // if(this.$route.hash != ""){
+        //     document.getElementById(this.$route.hash.substring(1)).scrollIntoView({
+        //         behavior: "smooth"
+        //     });
+        // }
+    }
+};
 </script>
 
 <style>
